@@ -19,6 +19,9 @@ object OptionReturnType {
       case None => println(s"Not Accepted")
       
       paymentType().map(pay => println(s"type = $pay"))
+
+
+
     }
   }
 }

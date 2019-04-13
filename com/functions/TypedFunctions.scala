@@ -16,7 +16,7 @@ object TypedFunctions {
       case d: Double => println(s"$d already applied")
       case _ => println("Not Supported")
     }
-  }
+  }   
    
    def main(args: Array[String]): Unit = {
      applyDiscount[Double](10)
