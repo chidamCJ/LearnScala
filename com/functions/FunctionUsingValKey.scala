@@ -9,6 +9,6 @@ object FunctionUsingValKey {
   }
   def main(args: Array[String]): Unit = {
     print(function(9))
-    println(10)
+   
   }
 }
